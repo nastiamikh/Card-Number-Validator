@@ -6,7 +6,7 @@
 
 В результате тестирования выявлены следующие дефекты:
 
-- 
+- [Не валидирует карты с 15-ти, 18-ти, 19-тизначными номерами](https://github.com/nastiamikh/Card-Number-Validator/issues/1)
 
 # Описание процесса тестирования
 
@@ -19,7 +19,7 @@
 public class Main {
   public static void main(String[] args) {
     // TODO: подставлять номер карты нужно сюда между двойными кавычками, без пробелов
-    String number = "5351719427810741";
+    String number = "";
     System.out.println(String.format("Result is %s", isValidCardNumber(number) ? "OK" : "FAIL"));
   }
 
